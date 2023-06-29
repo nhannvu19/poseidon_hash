@@ -1,22 +1,18 @@
-VNPay
+Poseidon Hash
 ========
 
-A Ruby implementation of ZK-SNARK friendly hash function Poseidon
+A Ruby implementation of ZK-SNARK friendly hash function [Poseidon](https://www.poseidon-hash.info/) 
 
-Introduction
-------------
-
-VNPAY Payment Gateway is an intermediate system to transmit, exchange and process payment transactions between consumers owning card, bank account or e-wallet and enterprises providing goods, services on the Internet.
 
 Installation
 ------------
 
 ### Bundler
 
-Add the Airbrake gem to your Gemfile:
+Add the gem to your Gemfile:
 
 ```ruby
-gem 'vnpay'
+gem 'poseidon_hash'
 ```
 
 ### Manual
@@ -24,7 +20,7 @@ gem 'vnpay'
 Invoke the following command from your terminal:
 
 ```bash
-gem install vnpay
+gem install poseidon_hash
 ```
 
 ### Usage
@@ -36,3 +32,12 @@ input = [15036302488869294205512386205959864594131048812695055297359195767538752
 Poseidon::Hash.new.hash(input, arity)
 ```
 
+## Contributing
+
+If you have problems or improvements, please create a [GitHub Issue](https://github.com/nhannvu19/poseidon_hash/issues).
+
+Thank you, contributors!
+
+## License
+
+This code is free to use under the terms of the MIT license.
