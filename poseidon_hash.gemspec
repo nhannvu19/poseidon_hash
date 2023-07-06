@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "poseidon_hash"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   s.summary     = "Poseidon hash function"
   s.description = "Ruby implementation of Poseidon hash function"
   s.authors     = ["Nhan Vu"]
